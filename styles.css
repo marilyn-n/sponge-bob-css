@@ -54,16 +54,39 @@
 
 .eye-lashes{
 	position: relative;
-	bottom: 19px;
+	bottom: 24px;
+	left: 10px
+}
 
+.lash.one{
+	position: relative;
+	top: 10px;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 	
 }
+
+.lash.three{
+	position: relative;
+	top: 10px;
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
 
 .lash{
 	width: 15px;
 	height: 5px;
 	background-color: black;
 	display: inline-block;
+	margin-right: 10px;
 	-moz-transform: rotate(90deg);
 	-webkit-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
