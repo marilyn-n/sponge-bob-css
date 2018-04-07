@@ -1,7 +1,7 @@
 #body{
   width: 300px;
   height: 400px;
-  background: yellow;
+  background: #F5EE31;
   border: 5px solid black;
   position: relative;
   margin: 50px auto;
@@ -105,6 +105,8 @@
 	left: 130px;
 	border: 5px solid black;
 	z-index: 10;
+	border-bottom: 5px solid transparent;
+	border-radius: 42.5%;
 }
 
 
