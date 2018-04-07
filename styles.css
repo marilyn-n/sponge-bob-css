@@ -120,6 +120,7 @@
 	left:50px;
 	border-radius: 50%;
 	z-index: 10px;
+	border-bottom: 5px solid black;
 }
 
 
