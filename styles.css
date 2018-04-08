@@ -125,7 +125,7 @@
 
 .teeth{
 	position: relative;
-	top: 80px;
+	top: 47px;
 	left: 65px;
 }
 
@@ -138,6 +138,29 @@
 }
 
 
+.cheack{
+	position: relative;
+	width: 40px;
+	height: 30px;
+	background-color: transparent;
+	border: 3px solid orange;
+	border-radius: 50% 50% 20% 20%;
+	border-bottom: transparent;
+}
+
+.cheack.one{
+	position: relative;
+	top: 30px;
+	right: 15px
+	
+}
+
+
+.cheack.two{
+	position: relative;
+	bottom: 36px;
+	left: 170px;
+}
 /*24:14*/
 
 
