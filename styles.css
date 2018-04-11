@@ -232,3 +232,15 @@ transform: rotate(-30deg);
 	border-top: 3px solid black;
 }
 
+.belt{
+	position: relative;
+	left: 5px;
+	top: 20px;
+	width: 50px;
+	margin: 10px;
+	height: 10px;
+	background-color: black;
+	display: inline-block;
+}
+
+
