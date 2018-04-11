@@ -170,26 +170,38 @@
 	background-color: white;
 	position: absolute;
 	border-top: 3px solid black;
+	
 }
 
 .neck{
-	width: 30px;
-	height: 20px;
-	background-color: black;
- 	border: 3px solid red
-
+	position: absolute;	
+	width: 50px;
+	height: 30px;
+	top: -25px;
+	left: 50px;
+	background: white;
+ 	border: 3px solid;
+	-moz-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	-o-transform: rotate(30deg);
+	-ms-transform: rotate(30deg);
+	transform: rotate(30deg);
 	
 	
 }
 
 .neck.one{
-	position: absolute;
-	left: 150px;
+	left: 60px;
+	
 }
 
 .neck.two{
-	position: absolute;
-	left: 120px;
+left: 180px;
+-moz-transform: rotate(-30deg);
+-webkit-transform: rotate(-30deg);
+-o-transform: rotate(-30deg);
+-ms-transform: rotate(-30deg);
+transform: rotate(-30deg);
 }
 
 
