@@ -221,4 +221,14 @@ transform: rotate(-30deg);
 	
 }
 
+/*pants*/
+
+.pants{
+	position: relative;
+	top: 324px;
+	width: 100%;
+	height: 100px;
+	background-color: saddlebrown;
+	border-top: 3px solid black;
+}
 
