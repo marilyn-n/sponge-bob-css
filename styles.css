@@ -243,4 +243,53 @@ transform: rotate(-30deg);
 	display: inline-block;
 }
 
+/*tie*/
 
+.long_tie{
+	position: absolute;
+	left: 123px;
+	bottom: 25px;
+    z-index: 50;
+	width: 50px;
+	height: 50px;
+	background: #F00200;
+	border: 3px solid;
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	
+}
+
+/*pore*/
+
+.pore{
+	width: 40px;
+	height: 40px;
+	z-index: 1;
+	position: absolute;
+	background-color: #c0a402;
+    border-radius: 50%;
+}
+
+.pore.one{
+	width: 50px;
+	height: 50px;
+	top: 210px;
+	left: 25px;
+}
+
+.pore.two{
+	width: 20px;
+	height: 20px;
+	top: 30px;
+	left: 250px;
+}
+
+.pore.three{
+	width: 40px;
+	height: 40px;
+	top: 160px;
+	left: 285px;
+}
